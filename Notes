@@ -1,0 +1,76 @@
+Block     (DONE)
+        x
+	y
+	z
+	collor
+	Selected
+	MyCell
+	Occupied 
+	
+	void setLocation (x y z)
+        boolean isHere(x,y,z)
+        void setCollor("string");
+	int getX()
+	int gety()
+	int getZ()
+        string getCollor();
+        setSelect(boolean)
+        bool isSelected()
+	placeCell(Cell);
+        Cell getCell()
+	removeCell()	
+        boolean, checkShot(x,y,z) (tell Cell ) 
+        
+
+board
+	array of Block
+	build board(x,y,z)
+	showboard()
+	boolean  checkShotBoard(x,y,z)
+
+
+cell (DONE) 
+	Fake booliand
+        Hit booland
+     
+       setFake(boolean)
+       isFake()
+       setHit(Boolean)
+       isHit()
+
+	
+ship
+	arraly of block
+        name of ship
+        sunk boolean 
+	build ship(x,y,z) //primpeis oriant (x y z) confimr blocks are empty and on the board
+	checkShotShip(xyz) loop block, if yours set to true return true check if sunk
+        boolean isSunk
+	
+fleet
+	array of ships
+	fleetlost boolean
+	checkshotFleet(x,yz)  
+        isFleetLost()
+
+player 
+	board
+	fleet
+
+        make a board 
+	make a fleet 
+        show board() loopbloks show hits adn misses
+        take shotPayer
+        isGameLost
+        
+game
+	array of players
+
+        add players()
+	
+	checkSHotGame(xyz)
+        isGameover()
+        playgame
+
+
+       
